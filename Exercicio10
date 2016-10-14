@@ -1,0 +1,38 @@
+public func Exercicio10(){
+    func nomeMes(num:Int) -> String{
+        var mes = ""
+        switch num{
+        case 1:
+            mes = "Janeiro"
+        case 2:
+            mes = "Fevereiro"
+        case 3:
+            mes = "Março"
+        case 4:
+            mes = "Abril"
+        case 5:
+            mes = "Maio"
+        case 6:
+            mes = "Junho"
+        case 7:
+            mes = "Julho"
+        case 8:
+            mes = "Agosto"
+        case 9:
+            mes = "Setembro"
+        case 10:
+            mes = "Outubro"
+        case 11:
+            mes = "Novembro"
+        case 12:
+            mes = "Dezembro"
+        default:
+            mes="O mês \(num) não existe 🤘🏻"
+        }
+        return mes
+    }
+    
+    print(nomeMes(num: 1))
+    print(nomeMes(num: 6))
+    print(nomeMes(num: 14))
+}
