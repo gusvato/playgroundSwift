@@ -1,0 +1,6 @@
+public func Exercicio03(){
+    var numQ:Double = 76.1
+    var SQR = sqrt(numQ)
+    
+    print("A raiz quadrada de \(numQ) é \(SQR)")
+}
