@@ -1,0 +1,24 @@
+public func Exercicio09(){
+    func calculoIMC(altura:Double, peso:Double) -> String{
+        var dobro = peso * peso
+        var imc = peso/(altura*altura)
+        var retorno = ""
+        print(imc)
+        if(imc < 20.0){
+            retorno =  "Esquálido"
+        } else if (imc<25.0){
+            retorno = "Normal"
+        }else if(imc < 30.0){
+            retorno = "Já dá pra fazer um builling nesse peso."
+        }else{
+            retorno = "Olha véio, falta altura pra vc ser magrinho viu."
+        }
+        
+        return retorno
+    }
+    
+    print(calculoIMC(altura: 1.70, peso: 90.0))
+    print(calculoIMC(altura: 1.57, peso: 74.3))
+    print(calculoIMC(altura: 1.72, peso: 70.0))
+    
+}
