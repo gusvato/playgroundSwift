@@ -1,0 +1,38 @@
+public func Exercicio02(){
+    //Exercício 2
+    var num1:Decimal = 58.3
+    var num2:Decimal = 69.5
+    var num3:Decimal = 89.3
+    var num4:Decimal = 109.5
+    
+    //var resultado = (num1 + num2 + num3 + num4 )/4
+    //class media{
+        var resultado = (num1 + num2 + num3 + num4 )/4
+    //}
+    
+    //let result = media()
+    
+    print("A média aritmética entre \(num1), \(num2), \(num3) e \(num4) é \(resultado)")
+    
+    
+    
+    func calculateAverage3(numbers:[Double]) -> Double{
+        var average=0.0
+        for number in numbers{
+            average = average + number
+        }
+        average = average / Double(numbers.count)
+        return average
+    }
+    
+    var num11:Double = 58.3
+    var num21:Double = 69.5
+    var num31:Double = 89.3
+    var num41:Double = 109.5
+    
+    //calculateAverage3(numbers: <#T##[Double]#>)
+    var result1:Double = calculateAverage3(numbers: [10.0, 4.5, 6.7, 9.8])
+    print(result1)
+    var result2 = calculateAverage3(numbers: [num11, num21, num31, num41])
+    print(result2)
+}
