@@ -1,0 +1,14 @@
+public func Exercicio05(){
+    func calculateNegatives(numbers:[Int]) -> Int{
+        var menor=0
+        for number in numbers{
+            if(number<0){
+                menor += 1
+            }
+        }
+        return menor
+    }
+    
+    var result1:Int = calculateNegatives(numbers: [10, -5, 3, -8, -9])
+    print("Existem \(result1) números negativos na lista")
+}
