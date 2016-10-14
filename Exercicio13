@@ -1,0 +1,11 @@
+public func Exercicio13(){
+    func celsiusFahrenheit(celsius:Double) -> Double{
+        let fahrenheit:Double = 32 + 9*celsius/5
+        return fahrenheit
+    }
+    print("0 graus Celsius equivalem a \(celsiusFahrenheit(celsius: 0)) graus fahrenheit")
+    print("10 graus Celsius equivalem a \(celsiusFahrenheit(celsius: 10)) graus fahrenheit")
+    print("15,7 graus Celsius equivalem a \(celsiusFahrenheit(celsius: 15.7)) graus fahrenheit")
+    print("20 graus Celsius equivalem a \(celsiusFahrenheit(celsius: 20)) graus fahrenheit")
+    print("30 graus Celsius equivalem a \(celsiusFahrenheit(celsius: 30)) graus fahrenheit")
+}
