@@ -1,0 +1,12 @@
+public func Exercicio11(){
+    func verifica(num:Int){
+        if num < 0{
+            print("Número \(num) é negativo")
+        }else{
+            print("Número \(num) é positivo")
+        }
+    }
+    
+    verifica(num: -1)
+    verifica(num: 1)
+}
