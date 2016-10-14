@@ -1,0 +1,7 @@
+public func Exercicio06(){
+    var num:Int = 120
+    var resto:Int = num%5
+    if (resto == 0){
+        print("O número \(num) é divisível por 5")
+    }
+}
