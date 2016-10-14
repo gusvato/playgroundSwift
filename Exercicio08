@@ -1,0 +1,16 @@
+public func Exercicio08(){
+
+    func calculoIdade(idade:Int){
+        if (idade < 16) {
+            print("Não eleitor")
+        } else if (idade < 18){
+            print("Eleitor facultativo")
+        } else{
+            print("Eleitor obrigatório")
+        }
+    }
+    calculoIdade(idade: 15)
+    calculoIdade(idade: 17)
+    calculoIdade(idade: 18)
+    calculoIdade(idade: 25)
+}
