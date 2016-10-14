@@ -1,0 +1,8 @@
+public func Exercicio07(){
+    var horaAula:Float = 30.4
+    var aulas = 4
+    var inss:Float = 12.0
+    var salarioBruto = Float(aulas) * horaAula
+    var salarioLiquido = salarioBruto - (salarioBruto*inss/100)
+    print("O professor X trabalhou \(aulas) esse mês, a um valor de \(horaAula). O Salário bruto é \(salarioBruto). Descontado \(inss)% de inss o Salário Líquido fica em R$ \(salarioLiquido)")
+}
