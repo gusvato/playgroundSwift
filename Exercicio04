@@ -1,0 +1,7 @@
+public func Exercicio04(){
+    var num = 4
+    var numAnt = num - 1
+    var numSuc = num + 1
+    print("O número antecessor de \(num) é \(numAnt) e o sucessor é \(numSuc)")
+
+}
