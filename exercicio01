@@ -1,0 +1,12 @@
+import Foundation
+
+//Escrever um programa que carregue o nome de uma pessoa em uma variável e imprima a mensagem: “Bem-vindo ao curso de Criação de Apps, NomePessoa“.
+//Exercício 1
+public func Exercicio01(){
+  var nome = "Gustavo"
+  var msg = "Bem-vindo ao curso de criacao de aplicativos "
+  print( msg + nome)
+  nome = "Zé"
+  print( msg + nome)
+  print("Bem-vindo \(nome)")
+}
