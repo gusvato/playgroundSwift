@@ -1,0 +1,9 @@
+//Construa um programa que recebe o peso de uma pessoa em quilogramas e converte para libras
+public func Exercicio14(){
+    func quiloLibras(peso:Double){
+        var libras = peso * 2.2046
+        print("O peso de \(peso) kgs é o equivalente a \(libras) Libras")
+    }
+    quiloLibras(peso: 12.3)
+    quiloLibras(peso: 90)
+}
